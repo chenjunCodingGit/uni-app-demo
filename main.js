@@ -12,7 +12,7 @@ Vue.prototype.$base = base;
 import $http from '@/config/requestConfig'
 Vue.prototype.$http = $http;
 // #ifdef MP-WEIXIN
-// 挂载全局微信分享
+//挂载全局微信分享
 import { wxShare } from '@/config/utils'
 Vue.prototype.wxShare = wxShare;
 // #endif
